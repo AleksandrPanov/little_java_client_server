@@ -1,5 +1,10 @@
+	input {
+	line-height: 24px;
+	}
+	
 	.lux {
-    width: 600px;
+	text-align: left;
+    width: 650px;
     border: 1px solid #a52a2a;
     border-collapse: collapse;
     border-spacing: 0;
@@ -10,7 +15,6 @@
    }
    .lux th
    {
-	   text-align: left;
 	   padding: 4px;
 	   background-color: #CD853F;
    }
