@@ -1,0 +1,26 @@
+<meta charset="utf-8"> 
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Lab1</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./style/style.css">
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/deleteRow.js"></script>
+		<script src="js/callServer.js"></script>
+		<script src="js/checkData.js"></script>
+	</head>
+    <body>
+		<p>Решение квадратно уравнения</p>
+		<p>
+			<input id = "a" maxlength="10" size="20" placeholder="25" required> x<sup>2</sup> +
+			<input id = "b" maxlength="10" size="20" placeholder="40" required> x +
+			<input id = "c" maxlength="10" size="20" placeholder="16" required>  = 0
+		</p>
+		<button onclick="checkData()">Вычислить</button>
+
+		<table class="lux" id="myTable">
+			<tr><th>Уравнение</th><th>Результат</th></tr>
+		</table>
+    </body>
+</html>
